@@ -1,0 +1,18 @@
+{
+  "name": "temp_emit_a2c",
+  "directory": "baby_steps",
+  "action_space": 36,
+  "seed": 158,
+  "reward_mode": "temp_emit_diff_reward",
+  "forcing": true,
+  "multigas": false,
+  "scenario": "ssp245",
+  "algorithm": "a2c",
+  "learning_rate": 2.1e-05,
+  "gamma": 0.9,
+  "device": "cpu",
+  "iterations": 1000,
+  "n_steps": 5,
+  "verbose": 1,
+  "log_freq": 25
+}
