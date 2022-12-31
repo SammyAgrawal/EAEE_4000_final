@@ -1,0 +1,18 @@
+{
+  "name": "exp_1_basic_test_a2c",
+  "directory": "Experiment_1/run3",
+  "max_carbon": 40,
+  "max_sulfur": 100,
+  "reward_mode": "simple_temp_reward",
+  "scenario": "ssp245",
+  "current_year": 2023,
+  "end_year": 2104,
+  "algorithm": "a2c",
+  "learning_rate": 0.021,
+  "gamma": 0.8,
+  "device": "cpu",
+  "iterations": 2000,
+  "n_steps": 4,
+  "verbose": 2,
+  "log_freq": 100
+}

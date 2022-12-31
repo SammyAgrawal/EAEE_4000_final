@@ -1,0 +1,19 @@
+{
+  "name": "temp_diff_a2c",
+  "directory": "configuring_model_to_work",
+  "max_carbon": 36,
+  "max_sulfur": 100,
+  "seed": 158,
+  "reward_mode": "carbon_cost_GDP_reward",
+  "scenario": "ssp245",
+  "current_year": 2023,
+  "end_year": 2104,
+  "algorithm": "a2c",
+  "learning_rate": 0.00021,
+  "gamma": 0.9,
+  "device": "cpu",
+  "iterations": 30,
+  "n_steps": 5,
+  "verbose": 1,
+  "log_freq": 6
+}

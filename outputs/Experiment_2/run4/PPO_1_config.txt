@@ -1,0 +1,18 @@
+{
+  "name": "PPO_1",
+  "directory": "Experiment_2/run4",
+  "max_carbon": 30,
+  "max_sulfur": 60,
+  "reward_mode": "carbon_cost_GDP_reward",
+  "scenario": "ssp245",
+  "current_year": 2023,
+  "end_year": 2105,
+  "algorithm": "ppo",
+  "learning_rate": 0.026,
+  "gamma": 0.85,
+  "device": "cpu",
+  "iterations": 1000,
+  "n_steps": 4,
+  "verbose": 2,
+  "log_freq": 100
+}
